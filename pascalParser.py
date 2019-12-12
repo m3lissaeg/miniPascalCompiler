@@ -209,38 +209,11 @@ def p_selection_stmt_2(p):
 	'selection_stmt : BEGIN IF LPAREN expression RPAREN THEN statement ELSE statement END SEMICOLON'
 	pass
 
-# def p_selection_stmt_3(p):
-# 	'selection_stmt : SWITCH LPAREN var RPAREN statement'
-# 	pass
-
-
-# def p_case_statement(p):
-# 	''' case_statement : NUMBER COLON statement SEMICOLON
-# 						|ID COLON statement SEMICOLON
-# 	'''
-# 	pass
-
-# def p_selection_stmt_5(p):
-# 	'selection_stmt : DEFAULT COLON statement BREAK SEMICOLON'
-# 	pass
-
 
 
 def p_iteration_stmt_1(p):
 	'iteration_stmt : WHILE LPAREN expression RPAREN DO BEGIN statement END'
 	pass
-
-# while statement 
-# def p_while_statement(p):
-# 	'while_statement : BEGIN statement END'
-# 	pass
-
-# -------------- for statement ----------
-# For x:=0 to contar do begin
-#         write('Voy por el ');
-#         writeln(x);
-#     end;
-
 
 def p_iteration_stmt_2(p):
 	'iteration_stmt : FOR ID COLON EQUAL TO ID DO BEGIN statement END SEMICOLON '

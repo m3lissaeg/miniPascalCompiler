@@ -6,16 +6,10 @@ program Serpiente2;
 var
    MaxPtosPar, PtosPar, PtosTot : int;
 
-var
-   a, b, ret : int;
+begin
 
 (*function definition *)
 function max(num1, num2: int): int;
-var
-   (* local variable declaration *)
-   result: int;
-
-begin
 
    if (num1 > num2) then
       result := num1
