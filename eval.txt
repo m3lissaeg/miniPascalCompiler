@@ -1,0 +1,32 @@
+program Serpiente2;
+
+#include pascal_lib.lib 
+(* comment 
+ *) 
+var
+   MaxPtosPar, PtosPar, PtosTot : int;
+
+var
+   a, b, ret : int;
+
+(*function definition *)
+function max(num1, num2: int): int;
+var
+   (* local variable declaration *)
+   result: int;
+
+begin
+
+   if (num1 > num2) then
+      result := num1
+   
+   else
+      result := num2;
+   max := result;
+
+   a := 100;
+   b := 200;
+   (* calling a function to get max value *)
+   ret := max(a, b);
+   
+end
